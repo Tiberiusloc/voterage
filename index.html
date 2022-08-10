@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link rel="stylesheet" href="css/styles.css" type="text/css">
+  <script src="js/scripts.js"></script>
+  <title>Voting</title>
+</head>
+<body>
+  <div>
+    <form>
+      <label for="age">Please verify your age to be able to vote.</label>
+      <input id="age" type="number">
+      <button type="submit">Submit!</button>
+    </form>
+
+    <div id="candidate" class="hidden">
+      <h1 id="birthday-wish"></h1>
+      <h1>Voter Menu</h1>
+      <p><a href="https://www.usa.gov/register-to-vote">How to Register to Vote</a></p>
+      <p><a href="https://www.vote.org/polling-place-locator/">Find a poll booth near you</a></p>
+
+      <h2>President</h2>
+      <ul>
+        <li>Kanye</li>
+        <li>Trump</li>
+        <li>Deez Nuts</li>
+      </ul>
+
+      <h2>Vice Presidents</h2>
+      <ul>
+        <li>Kim</li>
+        <li>Biden</li>
+        <li>Got eem</li>
+      </ul>
+    </div>
+
+    <div id="under-21" class="hidden">
+      <h1>Sorry, but at this time you are not legally allowed to vote.</h1>
+
+      <p>Voter fraud is illegal in the US. Check out this <a href="https://www.vote.org/">website</a> for more information.</p>
+    </div>
+  </div>
+</body>
+</html>
